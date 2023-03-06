@@ -4,7 +4,7 @@ Python-based utilities for playing around with anime data.
 
 ## AniData
 
-A simple client for the AniList API <https://anilist.gitbook.io/anilist-apiv2-docs/>. Used to source data for the other scripts.
+A simple unofficial client for the AniList API <https://anilist.gitbook.io/anilist-apiv2-docs/>. Used to source data for the other scripts.
 
 ### Usage
 
