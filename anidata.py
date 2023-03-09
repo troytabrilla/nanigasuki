@@ -26,7 +26,9 @@ class AniData:
         return results['data']
 
     def get_user_anime_list(self, user_name:str, options:OptionalDict=None) -> Dict:
-        should_cache = isinstance(options, dict) and not options.get('no_cache')
+        should_cache = options is None or (
+            isinstance(options, dict) and not options.get('no_cache')
+        )
         cache_key = f"anime_list:{user_name}"
 
         if should_cache:
